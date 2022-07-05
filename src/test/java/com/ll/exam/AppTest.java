@@ -22,4 +22,11 @@ public class AppTest {
 
         assertEquals(20, rs);
     }
+    @Test
+    public void 빼기_테스트1() {
+        int rs = Calculator.run("10 - 10");
+
+        assertEquals(0, rs);
+    }
+
 }
